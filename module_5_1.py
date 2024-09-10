@@ -2,6 +2,7 @@ class House:
     def __init__(self, name, floors ):
         self.name = name
         self.number_of_floors = floors
+        
     def go_to(self,new_floor):
         if (isinstance(new_floor,int) and
                 new_floor < self.number_of_floors and
